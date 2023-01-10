@@ -51,18 +51,19 @@
                                         </div>
                                         <div class="row d-flex">
                                             <div class="col-1">
-                                                <button type="button" class="btn"><i class="fa-solid fa-camera"></i> </button>
+                                                <button type="button" class="btn">
+                                                    <i class="fa-solid fa-camera"></i>
+                                                </button>
                                             </div>
 
                                             <div class="col-1">
-                                                <button type="button" class="btn"><i class="fa-solid fa-location-dot"></i> </button>
+                                                <button type="button" class="btn">
+                                                    <i class="fa-solid fa-location-dot"></i>
+                                                </button>
                                             </div>
-
-
-
-
                                         </div>
                                     </div>
+
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                                         <button type="button" class="btn btn-success">Publish</button>
@@ -71,34 +72,178 @@
                             </div>
                         </div>
 
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
 
-                            <button type="button" class="btn btn-secondary" style="height: 40px;">
+                        <div class="dropdown">
+                            <button class="btn btn-secondary dropdown-toggle mt-2 mx-2" style="height: 40px;" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 <i class="fa-solid fa-gear"></i>
                             </button>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a class="dropdown-item" href="#">Profile</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="#">Accesibility</a>
-                            </li>
-                            <li>
-                                <a class="dropdown-item" href="#">Privacy and Data</a>
-                            </li>
-                            <hr>
-                            <li>
-                                <a class="dropdown-item text-danger" href="#">Log out</a>
-                            </li>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a class="dropdown-item" href="#">Profile</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Accessibility</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Privacy and Data
+                                    </a>
+                                </li>
+                                <hr>
+                                <li>
+                                    <a class="dropdown-item text-danger" href="#">Log out</a>
+                                </li>
+                            </ul>
+                        </div>
 
-                        </ul>
-                        </li>
+
                     </ul>
                 </div>
             </div>
         </nav>
     </div>
+
+    <!--Java script behavior -->
+    <nav>
+        <div class="nav nav-tabs d-flex justify-content-center" id="nav-tab" role="tablist">
+            <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">
+                <i class="fa-solid fa-table-cells"></i>
+            </button>
+            <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">
+                <i class="fa-solid fa-square"></i>
+            </button>
+
+        </div>
+    </nav>
+    <div class="tab-content" id="nav-tabContent">
+        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+
+            <div class="container d-flex justify-content-center flex-column mt-5 mb-5">
+                <div class="card-group">
+                    <div class="card m-2">
+                        <img src="https://www.petdarling.com/wp-content/uploads/2021/01/cachorros.jpg" class="card-img-top" alt="...">
+
+
+                    </div>
+                    <div class="card m-2">
+                        <img src="https://www.petdarling.com/wp-content/uploads/2021/01/cachorros.jpg" class="card-img-top" alt="...">
+
+                    </div>
+                    <div class="card m-2">
+                        <img src="https://www.petdarling.com/wp-content/uploads/2021/01/cachorros.jpg" class="card-img-top" alt="...">
+
+                    </div>
+                </div>
+
+                <div class="card-group">
+                    <div class="card m-2">
+                        <img src="https://www.petdarling.com/wp-content/uploads/2021/01/cachorros.jpg" class="card-img-top" alt="...">
+
+
+                    </div>
+                    <div class="card m-2">
+                        <img src="https://www.petdarling.com/wp-content/uploads/2021/01/cachorros.jpg" class="card-img-top" alt="...">
+
+                    </div>
+                    <div class="card m-2">
+                        <img src="https://www.petdarling.com/wp-content/uploads/2021/01/cachorros.jpg" class="card-img-top" alt="...">
+
+                    </div>
+                </div>
+
+
+                <div class="card-group">
+                    <div class="card m-2">
+                        <img src="https://www.petdarling.com/wp-content/uploads/2021/01/cachorros.jpg" class="card-img-top" alt="...">
+
+
+                    </div>
+                    <div class="card m-2">
+                        <img src="https://www.petdarling.com/wp-content/uploads/2021/01/cachorros.jpg" class="card-img-top" alt="...">
+
+                    </div>
+                    <div class="card m-2">
+                        <img src="https://www.petdarling.com/wp-content/uploads/2021/01/cachorros.jpg" class="card-img-top" alt="...">
+
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+
+
+            <div class="container m-auto mt-5 mb-5">
+
+                <div class="card m-3 col-12 mx-auto d-block" style="width: 25rem; height: 35rem;">
+                    <div class="card-header d-flex">
+                        <h5 class="me-auto">
+                            titulo
+                        </h5>
+                        <p>
+                            1/1
+                        </p>
+                    </div>
+                    <img src="https://www.petdarling.com/wp-content/uploads/2021/01/cachorros.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h6>
+                            258 likes
+                        </h6>
+
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, corporis sit velit, fugiat nemo sapiente esse, ad hic consequatur sequi excepturi odit itaque. Nam, impedit eaque cumque explicabo alias nesciunt.</p>
+                    </div>
+                </div>
+
+
+                <div class="card m-3 col-12 mx-auto d-block" style="width: 25rem; height: 35rem;">
+                    <div class="card-header d-flex">
+                        <h5 class="me-auto">
+                            titulo
+                        </h5>
+                        <p>
+                            1/1
+                        </p>
+                    </div>
+                    <img src="https://www.petdarling.com/wp-content/uploads/2021/01/cachorros.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h6>
+                            258 likes
+                        </h6>
+
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, corporis sit velit, fugiat nemo sapiente esse, ad hic consequatur sequi excepturi odit itaque. Nam, impedit eaque cumque explicabo alias nesciunt.</p>
+                    </div>
+                </div>
+
+
+                <div class="card m-3 col-12 mx-auto d-block" style="width: 25rem; height: 35rem;">
+                    <div class="card-header d-flex">
+                        <h5 class="me-auto">
+                            titulo
+                        </h5>
+                        <p>
+                            1/1
+                        </p>
+                    </div>
+                    <img src="https://www.petdarling.com/wp-content/uploads/2021/01/cachorros.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h6>
+                            258 likes
+                        </h6>
+
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius, corporis sit velit, fugiat nemo sapiente esse, ad hic consequatur sequi excepturi odit itaque. Nam, impedit eaque cumque explicabo alias nesciunt.</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
 
     <!-- Este es el footer -->
     <footer class="text-center text-white bg-light">
@@ -135,9 +280,9 @@
     </footer>
 
 
-
     <!-- Este es el script de bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script><!-- Este es el script de font awesome -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <!-- Este es el script de font awesome -->
     <script src="https://kit.fontawesome.com/56125acec2.js" crossorigin="anonymous"></script>
 
 </body>
